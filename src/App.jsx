@@ -70,6 +70,7 @@ function reducer(state, action) {
         ...initialState,
         questions: state.questions,
         status: "ready",
+        highscore: state.highscore,
       };
     case "tick":
       return {
